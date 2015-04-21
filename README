@@ -1,0 +1,16 @@
+    Puzzle_Slider, a simple program to solve the eight puzzle
+    problem using Qt as a GUI front end.
+    Copyright (C) 2015  Zachary Foresta <zachary.foresta@gmail.com>
+
+    In order to make, require the following...
+
+    gcc >= 4.9.2-4
+    qt5 >= 5.4.1-2
+    make >= 4.1-1
+
+    in the code directory run:
+    > make
+
+    to execute, run:
+    > Puzzle_Slider
+
