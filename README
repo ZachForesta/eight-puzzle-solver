@@ -8,9 +8,11 @@
     qt5 >= 5.4.1-2
     make >= 4.1-1
 
+    MAKE:
     in the code directory run:
-    > make
+    > qmake && make
 
+    EXECUTE:
     to execute, run:
     > Puzzle_Slider
 
