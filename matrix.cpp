@@ -8,13 +8,14 @@
  */
 
 #include "matrix.h"
+#include "utilities.h"
 #include <QDebug>
 
 
 Matrix::Matrix()
 {
     setRect(0,0,WIDTH,LENGTH);
-    int cube = std::sqrt(size() + 1);
+    int cube = sqrt(size() + 1);
     order = new int[9];
     for (int i = 0; i < size(); ++i) {
         order[i] = i + 1;

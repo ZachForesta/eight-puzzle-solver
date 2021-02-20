@@ -105,7 +105,7 @@ void cost::calculate(const board& newBoard, const Table<uint>& goalBoard)
                 uint coordx = newBoard[j][i] % dim;
                 uint goal_y = goalBoard[coordy][coordx] / dim;
                 uint goal_x = goalBoard[coordy][coordx] % dim;
-                manhattan += abs(goal_y - j) + abs(goal_x - i);
+                manhattan += std::abs((int)(goal_y - j)) + std::abs((int)(goal_x - i));
             }
         }
     }
